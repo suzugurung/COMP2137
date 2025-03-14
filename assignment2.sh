@@ -8,7 +8,8 @@ configure_network() {
     echo "Checking network configuration..."
     
     # Netplan file location
-    NETPLAN_FILE="/etc/netplan/50-cloud-init.yaml"
+    NETPLAN_FILE="/etc/netplan/10-lxc.yaml"
+
     
     # Check if netplan config exists
     if [[ ! -f $NETPLAN_FILE ]]; then
