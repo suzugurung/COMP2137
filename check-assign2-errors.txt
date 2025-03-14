@@ -1,0 +1,31 @@
+--2025-03-13 22:48:40--  https://github.com/zonzorp/COMP2137/raw/main/makecontainers.sh
+Resolving github.com (github.com)... 140.82.113.4
+Connecting to github.com (github.com)|140.82.113.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh [following]
+--2025-03-13 22:48:41--  https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15446 (15K) [text/plain]
+Saving to: ‘/home/sushma/makecontainers.sh’
+
+     0K .......... .....                                      100% 7.25M=0.002s
+
+2025-03-13 22:48:41 (7.25 MB/s) - ‘/home/sushma/makecontainers.sh’ saved [15446/15446]
+
+Warning: The unit file, source configuration file or drop-ins of netplan-ovs-cleanup.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-sftp-server_8.9p1-3ubuntu0.11_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/t/tcp-wrappers/libwrap0_7.6.q-31build2_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-server_8.9p1-3ubuntu0.11_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/libp/libpsl/libpsl5_0.21.0-1.2build2_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/p/publicsuffix/publicsuffix_20211207.1025-1_all.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/w/wget/wget_1.21.2-2ubuntu1.1_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses-term_6.3-2ubuntu0.1_all.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/p/python-distro/python3-distro_1.7.0-1_all.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/s/ssh-import-id/ssh-import-id_5.11-0ubuntu1_all.deb  Temporary failure resolving 'archive.ubuntu.com'
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+Host server1-mgmt not found in /home/sushma/.ssh/known_hosts
+ssh: connect to host server1-mgmt port 22: Connection refused
+scp: Connection closed
