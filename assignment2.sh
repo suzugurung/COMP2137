@@ -81,7 +81,7 @@ create_users() {
     # SSH public keys for each user
     SSH_KEYS=(
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG4rT3vTt99Ox5kndS4HmgTrKBT8SKzhK4rhGkEVGlCI student@generic-vm"
-        # Add RSA and Ed25519 keys for other users as needed here
+    
     )
 
     # Loop through the users to create them
